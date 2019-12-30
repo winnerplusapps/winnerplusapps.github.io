@@ -1,0 +1,48 @@
+.jumbotron{
+    background-image: url(images/welc.jpg);
+}
+.jumbotron h1{
+    padding-top:20px;
+    color:#3E3F4A ;
+    padding-left:150px ;
+    font-family: 'Exo 2', sans-serif;
+    }
+.jumbotron h4{
+        color:#3E3F4A ;
+        padding-left:300px ;
+        font-family: 'Rajdhani', sans-serif;
+        letter-spacing:5px;
+        font-size: 20px;
+    }
+.jumbotron h4:hover{
+    transform: scale(1.5, 1.5);
+}
+#exclam{
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+.jumbotron img{
+    width:100px;
+    height:100px;
+}
+
+.navbar-inverse{
+    background-image: url(images/welc.jpg);
+    border: none;
+}
+.navbar-inverse .navbar-brand {
+    color:rgb(56, 57, 66);
+    font-size: 30px;
+    font-family: 'Candal', sans-serif;
+}
+.navbar-header{
+border: 1.5px solid black;
+margin-top:10px;
+padding-left: 20px;
+border-radius: 10px;
+border-width: 100%;
+
+}
+.navbar-header:hover{
+    transform: scale(1.1, 1.1);
+}
