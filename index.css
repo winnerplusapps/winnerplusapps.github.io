@@ -1,6 +1,6 @@
-
 .jumbotron{
     background-image: url(images/welc.jpg);
+ 
 }
 .jumbotron h1{
     padding-top:20px;
@@ -15,7 +15,6 @@
         letter-spacing:5px;
         font-size: 20px;
     }
-
 #exclam{
     font-size: 30px;
     font-family: 'Exo 2', sans-serif;
@@ -37,8 +36,89 @@
 .navbar-header{
 border: 1.5px solid black;
 margin-top:10px;
+margin-bottom: 10px;
 padding-left: 20px;
 border-radius: 10px;
 border-width: 100%;
 
 }
+#wrapper {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+
+.panels {
+    position:relative;
+    width:100%;
+    z-index:1000;
+}
+#a{
+    background-image:url(images/welc.jpg);
+    width:100%;
+    top: 11px;
+    position:fixed;
+    color: rgb(0, 0, 0);
+    
+    z-index:-99;
+    
+}
+#a h1{
+    padding-top:50px;
+    color:#3E3F4A ;
+    padding-left:150px ;
+    font-family: 'Exo 2', sans-serif;
+    }
+#a h4{
+        color:#3E3F4A ;
+        padding-left:300px ;
+        font-family: 'Rajdhani', sans-serif;
+        letter-spacing:5px;
+        font-size: 20px;
+        padding-bottom: 52px;;
+    }
+#exclam{
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+#b{
+    background-image:url(images/fixedimage.jpg);
+    top:285px;
+
+    width:100%;
+    position:fixed;
+    color: rgb(0, 0, 0);
+    height: 450px;;
+    z-index:-99;
+}
+#b .bpanelsh3{
+    color:#3E3F4A ;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 60px;
+    
+}
+#b .bpanelsp1{
+    font-family: 'Cute Font', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#c{
+   margin-top: 493px;
+   background:yellow;
+   padding-bottom: 1500px;
+}
+
+
+#d{
+   background:pink;
+}
+
+#e{
+   background:green;
+}
+
