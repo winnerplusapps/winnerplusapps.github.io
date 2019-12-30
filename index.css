@@ -1,3 +1,4 @@
+
 .jumbotron{
     background-image: url(images/welc.jpg);
 }
@@ -14,9 +15,7 @@
         letter-spacing:5px;
         font-size: 20px;
     }
-.jumbotron h4:hover{
-    transform: scale(1.5, 1.5);
-}
+
 #exclam{
     font-size: 30px;
     font-family: 'Exo 2', sans-serif;
@@ -42,7 +41,4 @@ padding-left: 20px;
 border-radius: 10px;
 border-width: 100%;
 
-}
-.navbar-header:hover{
-    transform: scale(1.1, 1.1);
 }
